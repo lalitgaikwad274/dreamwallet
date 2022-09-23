@@ -1,0 +1,130 @@
+header{
+    height: 50px;
+}
+
+.search i{
+    height: 100px;
+    width: 200px;
+    color: red;
+}
+ul li{
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 20px;
+}
+li img{
+    height: 60px;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height:10px;
+}
+
+#trend  {
+    background-color: #f9a101;
+    width: 100px;
+    height: 3px;
+    border: none;
+}
+
+
+#snd .card{
+    height: 100vh;
+}
+.card p{
+    font-size: 10x;
+}
+.progress{
+    height: 13px;
+}
+.progress-bar{
+    background-color: rgb(35, 160, 35);
+}
+
+.box{
+    background-color: #FFFFFF;   
+}
+
+.box:hover {
+    background-color: #6dc5b7;
+    color: #FFFFFF;
+}
+.box:hover p {
+    background-color: #6dc5b7;
+    color: #FFFFFF;
+}
+.box:hover path {
+    background-color: #6dc5b7;
+    fill: #FFFFFF;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+
+#dream1 img{
+    border-radius: 50%;
+    opacity: 0.2;
+    height: 200px;
+    background-blend-mode: screen;
+}
+#dream2 img{
+    border-radius: 50%;
+    opacity: 0.2;
+    height: 200px;
+    background-blend-mode: screen;
+}
+
+
+.bottom{
+    background-color: #f2f3f7;
+    margin-top: -100px;
+}
+.bottom p{
+    padding-top: 80px;
+    height: 250px;
+}
+#arrow{
+    /* align-items: center; */
+    height: 8px;
+    margin-right: 8px;
+    color: grey;
+}
+
+.last{
+    color: grey;
+}
+.last .h5{
+    color: black;
+}
+
+.last .col-sm-6, .last .col-sm{
+    padding: 5px;
+}
+.col-sm-2{
+    margin: 10px;
+    width: 180px;
+    color: grey;
+}
+.col-sm-2 img{
+    margin-right: 5px;
+}
+
+:root{
+    --primary: hsl(176, 70%, 35%, 0.92);
+    --secondary: hsl(176, 70%, 35%, 0.90);
+}
+
+.three{
+    background: linear-gradient(135deg, var(--primary), var(--secondary)) , url('./images/hands.jpeg') no-repeat center center /cover;
+}
+
+.three svg{
+    height: 40px;
+}
+.progress{
+    border-radius: 0%;
+}
